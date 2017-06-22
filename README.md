@@ -57,3 +57,4 @@ using make_rsequence_t =
                 std::integral_constant<type_t, max_c>{}))) ;
 
 ```
+TODO add more types to expose same features as functions and give some examples
