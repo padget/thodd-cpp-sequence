@@ -6,7 +6,7 @@ reverse the sequence.
 
 This library expose these functions : 
 
-```
+```c++
 template<typename type_t, type_t min_c, type_t max_c>
 constexpr sequence<type_t, max_c, nexts_c..., min_c> 
 make_sequence(
@@ -40,7 +40,7 @@ reverse_sequence(
 
 and also these two types :
 
-```
+```c++
 template<typename type_t, type_t min_c, type_t max_c>
 using make_sequence_t = 
     decltype(
