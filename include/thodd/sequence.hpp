@@ -98,30 +98,6 @@ thodd
 {
     template<
         typename type_t,
-        type_t ... indexes_c>
-    constexpr auto 
-    max(
-        sequence<type_t, indexes_c...>)
-    {
-        return 
-        std::max({ indexes_c... }) ;
-    }
-
-
-    template<
-        typename type_t,
-        type_t ... indexes_c>
-    constexpr auto 
-    min(
-        sequence<type_t, indexes_c...>)
-    {
-        return 
-        std::min({ indexes_c... }) ; 
-    }
-
-
-    template<
-        typename type_t,
         type_t min_c, 
         type_t max_c>
     constexpr auto 
