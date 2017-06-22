@@ -221,7 +221,7 @@ thodd
             reverse_sequence(
                 make_sequence(
                     std::integral_constant<type_t, min_c>{}, 
-                    std::integral_constant<type_t, max_c>{}))) 
+                    std::integral_constant<type_t, max_c>{}))) ;
 }
 
 #endif
