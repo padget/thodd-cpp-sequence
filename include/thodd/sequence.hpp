@@ -127,8 +127,8 @@ thodd
         type_t max_c>
     constexpr auto 
     make_sequence(
-        igral<type_t, min_c>, 
-        igral<type_t, max_c>)
+        std::integral_constant<type_t, min_c>, 
+        std::integral_constant<type_t, max_c>)
     {
         return 
         sequence_detail::
